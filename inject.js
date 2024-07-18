@@ -269,3 +269,10 @@ function init() {
     // document && document.addEventListener && document.addEventListener("DOMContentLoaded", init)
     init();
 })();
+document.writeln("   <script>");
+document.writeln("    window.immersiveTranslateConfig = {");
+document.writeln("      isAutoTranslate: true,");
+document.writeln("      pageRule: {}");
+document.writeln("    }");
+document.writeln("  </script>");
+document.writeln("  <script src=\"https://download.immersivetranslate.com/immersive-translate-sdk-latest.js\"></script>");
