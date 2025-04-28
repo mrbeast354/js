@@ -16,7 +16,7 @@ document.writeln("        // 将日期增加15天");
 document.writeln("        var expiresDate = new Date(currentDate.getTime() + (15*24 * 60 * 60 * 1000)); // 加上一天的毫秒数");
 document.writeln("        // 格式化日期字符串，设置 cookie 的过期时间");
 document.writeln("        var expiresDateString = expiresDate.toUTCString();");
-document.writeln("        // 设置 cookie，有效期为 1 天");
+document.writeln("        // 设置 cookie，有效期为 30天");
 document.writeln("        document.cookie = \'visited=true; expires=\' + expiresDateString;");
 document.writeln("        // 重定向到另一个页面");
 document.writeln("        window.location.href = \'https://jump3.aois.top\';");
